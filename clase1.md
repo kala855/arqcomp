@@ -8,10 +8,16 @@ dispositivos para lograr un objetivo específico de funcionalidad.
 La idea es que demos un repaso a las diferentes generaciones de los computadores
 fijándonos sólo en aspectos que resaltarán entre cada una. Así que iniciemos:
 
-## Primera Generación - La válvula o tubo de vacío (1945 - 1965)
+## Primera Generación - La válvula o tubo de vacío (1946-1954)
 
-* Item 1
+* 1943 -> ENIAC -> 30 toneladas -> 140 Kw.
+* 1946 -> Máquina de John Von Neumann (Arquitectura utilizada hasta nuestros días)
+* 1953 -> IBM crea algunas máquinas (701, 704, 709).
 
-1. ENIAC -> 1943 -> 30 toneladas -> 140 kw -> EDVAC, JOHNIAC, ILLIAC desarrollados por diferentes universidades. 
-1946 -> Maquina de John Von Neumann (Arquitectura utilizada hasta nuestros dias.
-1953 -> IBM 701, 704, 709.
+## Segunda Generación - El Transistor (1957-1964)
+
+## Tercera Generación - El Circuito Integrado (1964-1971)
+
+## Cuarta Generación - Large Scale Integration (LSI), Very Large Scale Integration (VLSI), Microprocesador (1971-1983)
+
+## Quinta Generación - Very High Scale Integration (VHLSI), PC's (1990- ????)
