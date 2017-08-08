@@ -5,3 +5,6 @@
 * Tablets - dispositivos móviles
 * Wearables
 * Supercomputadores - HPC (High Performance Computing) - GPU : CPU (Sistemas heterogeneos)
+
+## Definición Jerárquica
+
