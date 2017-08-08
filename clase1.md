@@ -47,5 +47,5 @@ a parte.
 * Las instrucciones se ejecutan de manera secuencial. Deben existir instrucciones de salto
 que permitan romper esta secuencialidad. Esto es aún cierto en la actualidad.
 
-
+![ArqVonNeumann](./images/arqVon.jpg "Diagrama de Bloques de una Arquitectura de Von Neumann Típica")
 
