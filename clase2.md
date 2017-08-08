@@ -14,3 +14,5 @@ Cómo puede verse en la gráfica, un sistema de cómputo puede visualizarse como
 conjunto de círculos concéntricos, donde el más interno se encuentra más cercano al
 hardware del computador, luego se tiene el sistema operativo y finalmente todo el
 conjunto de aplicaciones que corren sobre el sistema.
+
+# Compiladores
