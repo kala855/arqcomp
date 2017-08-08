@@ -75,3 +75,20 @@ por tener un conjunto de instrucciones de tamaño fijo. La mayoría de procesado
 basados en este tipo de arquitecturas.
 * CISC - Complex Instruction Set Computer. En este caso el conjunto de instrucciones puede tener un 
 tamaño variable. Un ejemplo de ésta arquitectura es la arquitectua Intel IA64.
+
+# Power Wall
+
+Es interesante notar que en el diseño de procesadores en la actualidad no se ha notado un incremento
+notable en la frecuencia de reloj que éstos tienen. Este problema es conocido como la __Pared de la Potencia__
+y es generado ya que cuando un microprocesador trabaja a frecuencias elevadas disipa más potencia
+en forma de calor, esto ocasionaría que si comercialmente tuviéramos procesadores que superaran los 
+5GHz de manera comercial tuviéramos que conseguir sistemas de enfriamento complejos que elevarían los costos
+de los sistemas de cómputo tal y como los conocemos. 
+
+De hecho las personas dedicadas a hacer procesos de __Overclock__ saben que su principal enemigo
+es la temperatura, por este motivo los sistemas de prueba que construyen son enfriados con hielo 
+seco o inclusive con nitrógeno líquido para mantener una temperatura de funcionamiento adecuada.
+
+A continuación les dejo la ecuación que relaciona la potencia con la frecuencia y el voltaje:
+
+__Power = Capacitive Load * Voltage² * Frecuencia__
