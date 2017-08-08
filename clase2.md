@@ -8,3 +8,4 @@
 
 ## Definición Jerárquica
 
+![Jerarquia](./images/jerarquica.png "Definición Jerárquica de los Sistemas de Cómputo")
