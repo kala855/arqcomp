@@ -49,3 +49,29 @@ que permitan romper esta secuencialidad. Esto es aún cierto en la actualidad.
 
 ![ArqVonNeumann](./images/arqVon.jpg "Diagrama de Bloques de una Arquitectura de Von Neumann Típica")
 
+# Clasificación de Arquitecturas
+
+Las arquitecturas de cómputo pueden clasificarse típicamente en 2 grandes grupos:
+
+## Según el número de Instrucciones
+
+Este tipo de clasificación también es conocida como la taxonomía de Flynn y se clasifica en 4 tipos:
+* SISD - Single Instruction Single Data. Este tipo de arquitecturas normalmente se ven en celulares 
+de gama baja, generalmente presente en sistemas con un sólo núcleo. Se asigna la ejecución de una
+sola instrucción sobre un solo dato.
+* SIMD - Single Instruction Multiple Data. En este caso una sola instrucción es ejecutada sobre 
+un conjunto de datos. Este tipo de arquitecturas tiene como ejemplo a los procesadores vectoriales.
+* MIMD - Multiple Instruction Multiple Data - Aquí lo que se tiene es que un conjunto de instrucciones
+diferentes se aplica sobre un conjunto de datos distintos. Un ejemplo de este tipo de arquitecturas
+puede verse en las GPU, o incluso en sistemas conectados en clúster.
+* MISD - Multiple Instruction Single Data. No es una arquitectura típica
+
+## Según el juego de Instrucciones
+
+Existen 2 tipos de arquitecturas de este tipo:
+
+* RISC - Reduce Instruction Set Computer. Este tipo de arquitecturas se caracterizan generalmente
+por tener un conjunto de instrucciones de tamaño fijo. La mayoría de procesadores actuales están
+basados en este tipo de arquitecturas.
+* CISC - Complex Instruction Set Computer. En este caso el conjunto de instrucciones puede tener un 
+tamaño variable. Un ejemplo de ésta arquitectura es la arquitectua Intel IA64.
