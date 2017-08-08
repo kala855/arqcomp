@@ -35,3 +35,17 @@ fijándonos sólo en aspectos que resaltarán entre cada una. Así que iniciemos
 ## Quinta Generación - Very High Scale Integration (VHLSI), PC's (1990-????)
 
 * Very High Large Scale Integration -> millones de transistores. 
+
+# Máquina de Von Neumann
+
+Características: 
+
+* La memoria es unidimensional.
+* Existe una sola memoria para almacenar instrucciones y datos. Este concepto varía un poco en la
+actualidad donde podemos encontrar comúnmente procesadores con memoria de datos e instrucciones 
+a parte.
+* Las instrucciones se ejecutan de manera secuencial. Deben existir instrucciones de salto
+que permitan romper esta secuencialidad. Esto es aún cierto en la actualidad.
+
+
+
