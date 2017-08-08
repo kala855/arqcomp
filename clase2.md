@@ -16,3 +16,11 @@ hardware del computador, luego se tiene el sistema operativo y finalmente todo e
 conjunto de aplicaciones que corren sobre el sistema.
 
 # Compiladores
+
+Un compilador puede verse como un traductor de Lenguaje de Alto Nivel a Lenguaje de
+Máquina.
+
+Aquí resulta importante que se cuestionen por ejemplo, qué es mejor:
+
+* Un lenguaje Compilado
+* Un lenguaje Interpretado
