@@ -54,3 +54,15 @@ por el procesador:
 
 Más adelante veremos con detenimiento como se realiza este proceso de manera correcta.
 Lo que mostramos aquí es una aproximación al proceso.
+
+# Componentes de un Sistema de Cómputo
+
+Cómo podemos ver en la siguiente gráfica, un sistema de cómputo puede verse como un 
+sistema que tiene una entrada, en nuestro caso esta entrada será dada por algún
+dispositivo de entrada. Posteriormente estos datos serán llevados hasta
+la memoria del sistema, desde donde se tomarán los datos y se llevarán a través de un
+datapath y comandado por una unidad de control a través del procesador en el cuál se
+realizarán los cálculos necesarios para posteriormente llevar los datos a la memoria
+y finalmente llevarlos hasta el usuario a través de algun dispositivo de salida.
+
+![Componentes](./images/components.png "Componentes de un sistema de cómputo")
