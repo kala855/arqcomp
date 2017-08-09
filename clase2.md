@@ -66,3 +66,15 @@ realizarán los cálculos necesarios para posteriormente llevar los datos a la m
 y finalmente llevarlos hasta el usuario a través de algun dispositivo de salida.
 
 ![Componentes](./images/components.png "Componentes de un sistema de cómputo")
+
+# Taller
+* Buscar los 4 principios de diseño de toda arquitectura de cómputo. La idea es realizar
+una discusión en la siguiente clase sobre los aspectos que se generan con estos principios.
+* Investigar en el "SPARCV8 Architecture Manual" como se escribe en lenguaje de máquina la
+siguiente asignación:
+```c
+int a = 15;
+```
+* Enviar por correo electrónico la solución.
+
+
