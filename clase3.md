@@ -21,5 +21,22 @@ El hecho de que se trabaje con instrucciones que a lo sumo serán __triádicas__
 
 Entendiéndose como regularidad a que el procesador deberá funcionar correctamente siempre. Esto tiende a ser mucho más viable si nuestros diseños se mantienen simples.
 
+### Ejemplo de Asignación Compleja
+
+```
+h = (l+j) - (p+q);
+```
+
+La anterior asignación puede escribirse en lenguaje ensamblador de la siguiente forma:
+
+```
+add l,j,l
+add p,q,h
+sub l,h,h
+```
+Cómo puede verse se deben realizar 3 instrucciones para efectuar la asignación, esto debido a la utilización de operaciones triádicas.
+
+
 ## Operandos del Hardware del Procesador
 
+Como pudimos observar en el ejemplo anterior estuvimos usando las variables definidas en lenguaje de alto nivel como los operandos de las instrucciones, sin embargo esto no es posible, ya que nuestro procesador sólo puede operar valores almacenados en registros.
