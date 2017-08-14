@@ -45,4 +45,6 @@ Cómo puede verse se deben realizar 3 instrucciones para efectuar la asignación
 
 ## Operandos del Hardware del Procesador
 
-Como pudimos observar en el ejemplo anterior estuvimos usando las variables definidas en lenguaje de alto nivel como los operandos de las instrucciones, sin embargo esto no es posible, ya que nuestro procesador sólo puede operar valores almacenados en registros.
+Como pudimos observar en el ejemplo anterior estuvimos usando las variables definidas en lenguaje de alto nivel como los operandos de las instrucciones, sin embargo esto no es posible, ya que nuestro procesador sólo puede operar valores almacenados en registros. La arquitectura __SPARCV8 (Scalable Processor ARChitecture)__ permite que dependiendo de la implementación que se realice, se pueda elegir en tener 40 registros o tener 520. La cantidad de registros también depende de la implementación de "Ventanas", lo que veremos más adelante durante el desarrollo del curso.
+
+![WindowAddressing](./images/windowaddr.png)
