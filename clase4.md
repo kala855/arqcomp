@@ -12,4 +12,4 @@ ld [address], regrd
 st regrd, [address]
 ```
 
-El **address** se calcula como la suma del contenido del registro fuente 1 y el registro fuente 2, normalmente conocidos como **rs1 y rs2**.
+El **address** se calcula como la suma del contenido del registro fuente 1 y el registro fuente 2, normalmente conocidos como **rs1 y rs2**. También se pueden usar valores 
