@@ -12,4 +12,19 @@ ld [address], regrd
 st regrd, [address]
 ```
 
-El **address** se calcula como la suma del contenido del registro fuente 1 y el registro fuente 2, normalmente conocidos como **rs1 y rs2**. También se pueden usar valores 
+El **address** se calcula como la suma del contenido del registro fuente 1 y el registro fuente 2, normalmente conocidos como **rs1 y rs2**. También se pueden usar valores inmediatos que reemplazan el **rs2**.
+
+Es muy importante tener en cuenta que la arquitectura __SPARCV8__ direcciona por byte.
+
+* Ejemplo:
+
+Tratemos de compilar una asinación asumiendo que un operando se encuentra en memoria, recuerden asumir que las variables que se usan en lenguaje de alto nivel están creadas e inicializadas cuando haga falta.
+
+```c
+f = h + A[8];
+```
+
+```assembly
+ld [%l2+(32)],%l3
+add %l1, %l3, %l0
+```
