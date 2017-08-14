@@ -56,5 +56,9 @@ Está dividida en:
 
 * **Registros de Entrada**: 8 registros de propósito general. Por estándar se sugiere que sean usados para recibir parámetros.
 * **Registros de Salida**: 8 registros de propósito general. Por estándar se sugiere que sean usados para retornar valores.
-* **Registros de Locales**: 8 registros de propósito general. Por estándar se sugiere que sean usados para definir variables dentro de una función.
-* **Registros de Globales**: 8 registros de propósito general. Por estándar se sugiere que sean usados para almacenar variables globales
+* **Registros Locales**: 8 registros de propósito general. Por estándar se sugiere que sean usados para definir variables dentro de una función.
+* **Registros Globales**: 8 registros de propósito general. Por estándar se sugiere que sean usados para almacenar variables globales
+
+Es claro que la cantidad de registros es bastante reducida. Esto generalmente se da debido al costo que se genera en la construcción de procesadores con __Register Files__ grandes. El hecho de tener pocos registros le da sentido al segundo principio de diseño.
+
+* **Pequeño es más rápido**
