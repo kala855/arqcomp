@@ -8,8 +8,14 @@ Como es bien sabido resulta determinante que una arquitectura de cómputo (Proce
 
 Por ejemplo, la instrucción **suma** utilizando variables se puede establecer de la siguiente forma. Recordemos que estamos hablando de una arquitectura **SPARCV8 (Scalable Processor ARChitecture)**:
 
+```c
+a = b + c;
 ```
-a = b + c; --> add b,c,a
+
+En ensamblador sería:
+
+```assembly
+add b,c,a
 ```
 Tenemos una asignación simple en __C__, donde estamos sumando las variables __b__ y __c__ y guardando el resultado en __a__. Cabe aclarara que para que el ejemplo tenga sentido estamos asumiendo que las tres variables han sido declaradas previamente y adicionalmente que tanto __b__ como __c__ han sido inicializadas.
 
