@@ -29,7 +29,7 @@ h = (l+j) - (p+q);
 
 La anterior asignación puede escribirse en lenguaje ensamblador de la siguiente forma:
 
-```
+```assembly
 add l,j,l
 add p,q,h
 sub l,h,h
