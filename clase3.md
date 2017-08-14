@@ -47,4 +47,14 @@ Cómo puede verse se deben realizar 3 instrucciones para efectuar la asignación
 
 Como pudimos observar en el ejemplo anterior estuvimos usando las variables definidas en lenguaje de alto nivel como los operandos de las instrucciones, sin embargo esto no es posible, ya que nuestro procesador sólo puede operar valores almacenados en registros. La arquitectura __SPARCV8 (Scalable Processor ARChitecture)__ permite que dependiendo de la implementación que se realice, se pueda elegir en tener 40 registros o tener 520. La cantidad de registros también depende de la implementación de "Ventanas", lo que veremos más adelante durante el desarrollo del curso.
 
+A continuación tenemos una imagen donde se pueden observar los diferentes tipos de registros que tendrá la arquitectura __SPARCV8__.
+
 ![WindowAddressing](./images/windowaddr.png)
+
+
+Está dividida en:
+
+* **Registros de Entrada**: 8 registros de propósito general. Por estándar se sugiere que sean usados para recibir parámetros.
+* **Registros de Salida**: 8 registros de propósito general. Por estándar se sugiere que sean usados para retornar valores.
+* **Registros de Locales**: 8 registros de propósito general. Por estándar se sugiere que sean usados para definir variables dentro de una función.
+* **Registros de Globales**: 8 registros de propósito general. Por estándar se sugiere que sean usados para almacenar variables globales
