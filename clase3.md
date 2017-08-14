@@ -19,4 +19,4 @@ El hecho de que se trabaje con instruccionesque a lo sumo serán __triádicas__ 
 
 * La simplicidad favorece la regularidad.
 
-
+Entendiéndose como regularidad a que el procesador deberá funcionar correctamente siempre. Esto tiende a ser mucho más viable si nuestros diseños se mantienen simples.
