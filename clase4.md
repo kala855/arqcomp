@@ -5,3 +5,11 @@ Como pudo verse, la cantidad de registros a los cuales podremos tener acceso cua
 * **LOAD**: Permite acceder a una direccin de memoria específica y tomar 32 bits que luego serán almacenados en un registro.
 * **STORE**: Permite tomar el valor de un registro y almacenarlo en la memoria a partir de la dirección de memoria establecida.
 
+Estas instrucciones tiene la siguiente sintaxis en ensamblador:
+
+```assembly
+ld [address], regrd
+st regrd, [address]
+```
+
+El **address** se calcula como la suma del contenido del registro fuente 1 y el registro fuente 2, normalmente conocidos como **rs1 y rs2**.
